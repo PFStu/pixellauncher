@@ -12,15 +12,12 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         new FXMLLoader();
-        Scene scene = new Scene(Objects.requireNonNull(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Menu/MainView.fxml")))));
+        Scene scene = new Scene(Objects.requireNonNull(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("MCLauncherView.fxml")))));
         stage.setTitle("Pixel Launcher Dev");
         stage.setScene(scene);
         stage.show();
     }
 
-    public static void switchWindow(String fxml) throws IOException {
-        //TODO: 切换窗口逻辑
-    }
     public static void main(String[] args) {
         launch(args);
     }
