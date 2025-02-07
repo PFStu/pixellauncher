@@ -10,4 +10,7 @@ module com.pfstu.pixellauncher {
 
     opens com.pfstu.pixellauncher to javafx.fxml;
     exports com.pfstu.pixellauncher;
+    exports com.pfstu.pixellauncher.Modules.Launch;
+    exports com.pfstu.pixellauncher.Modules.Menu to javafx.fxml;
+    opens com.pfstu.pixellauncher.Modules.Launch to javafx.fxml;
 }
