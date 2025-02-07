@@ -1,0 +1,40 @@
+#versionComboBox {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-background-color: #7799ff;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 0, 1, 2;
+}
+
+#versionComboBox:hover {
+    -fx-background-color: #5577ff;
+}
+
+#downloadLogArea {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 5px;
+}
+
+#logArea {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 5px;
+}
