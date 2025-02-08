@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* 设置 VBox 的背景颜色和内边距 */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+/* 美化 ComboBox */
+#versionText {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-border-color: transparent;
+    -fx-prompt-text-fill: #808080;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+    -fx-padding: 10px 20px;
+    -fx-min-width: 300px;
+    -fx-transition: background-color 0.3s ease, -fx-effect 0.3s ease;
+}
+
+#versionText:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+/* 美化下载游戏按钮 */
+#downloadVersion {
+    -fx-background-color: linear-gradient(to bottom, #2196F3, #1976D2);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-background-radius: 30px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+    -fx-padding: 10px 20px;
+    -fx-transition: background-color 0.3s ease, -fx-effect 0.3s ease;
+}
+
+#downloadVersion:hover {
+    -fx-background-color: linear-gradient(to bottom, #1976D2, #1565C0);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+#downloadVersion:pressed {
+    -fx-background-color: linear-gradient(to bottom, #1565C0, #0d47a1);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 5);
+}
+
+/* 美化下载日志 TextArea */
+#downloadLogArea {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+}
+
+/* 美化启动游戏按钮 */
+#launchGame {
+    -fx-background-color: linear-gradient(to bottom, #FF9800, #E65100);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-background-radius: 30px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+    -fx-padding: 10px 20px;
+    -fx-transition: background-color 0.3s ease, -fx-effect 0.3s ease;
+}
+
+#launchGame:hover {
+    -fx-background-color: linear-gradient(to bottom, #E65100, #D84315);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+#launchGame:pressed {
+    -fx-background-color: linear-gradient(to bottom, #D84315, #BF360C);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 5);
+}
+
+/* 美化游戏日志 TextArea */
+#logArea {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+}

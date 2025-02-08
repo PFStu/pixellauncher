@@ -25,11 +25,13 @@ public class DownloadManager {
     private final String versionId;
     private final MainController mainController; // 使用传入的 MainController 实例
 
-    public DownloadManager(String versionId, MainController mainController) {
+    public DownloadManager(String versionId, MainController mainController) throws IOException, InterruptedException {
+        System.out.println("接受");
         this.client = HttpClient.newHttpClient();
         this.versionId = versionId;
         this.mainController = mainController;
         createDirectories();
+        downloadVersion();
     }
 
     private void createDirectories() {

@@ -6,6 +6,7 @@ module com.pfstu.pixellauncher {
     requires org.apache.httpcomponents.httpclient;
     requires org.apache.commons.codec;
     requires java.net.http;
+    requires java.desktop;
 
 
     opens com.pfstu.pixellauncher to javafx.fxml;
