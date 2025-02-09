@@ -1,4 +1,4 @@
-package com.pfstu.pixellauncher.Modules.Launch;
+package com.pfstu.pixellauncher.Modules.Download;
 
 import java.io.IOException;
 import java.util.ArrayList;

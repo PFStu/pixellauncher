@@ -1,4 +1,4 @@
-package com.pfstu.pixellauncher.Modules.Launch;
+package com.pfstu.pixellauncher.Modules.Download;
 
 import com.google.gson.*;
 

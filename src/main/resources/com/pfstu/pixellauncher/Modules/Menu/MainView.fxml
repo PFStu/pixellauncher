@@ -11,5 +11,6 @@
             fx:controller="com.pfstu.pixellauncher.Modules.Menu.MainController"
             prefHeight="400.0" prefWidth="600.0"
             stylesheets="@MainStyle.css">
-    <Button fx:id="Launch" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchToLaunchWindow" text="Launch" />
+    <Button fx:id="Download" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchToDownloadWindow" text="下载" />
+    <Button fx:id="Launch" layoutX="20.0" layoutY="80.0" mnemonicParsing="false" onAction="#switchToLaunchWindow" text="启动" />
 </AnchorPane>

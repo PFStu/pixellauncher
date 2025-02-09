@@ -1,4 +1,4 @@
-package com.pfstu.pixellauncher.Modules.Launch;
+package com.pfstu.pixellauncher.Modules.Download;
 
 import com.google.gson.*;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -201,7 +201,7 @@ public class DownloadManager {
         if (Files.exists(target)) {
             if (checkFileHash(target, expectedSha1)) {
                 if (mainController != null) {
-                    mainController.logUpdate("File exists: " + target);
+                    mainController.log("File exists: " + target);
                 }
                 return;
             }
@@ -209,7 +209,7 @@ public class DownloadManager {
         }
 
         if (mainController != null) {
-            mainController.logUpdate("Downloading: " + url);
+            mainController.log("Downloading: " + url);
         }
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(url))
@@ -240,7 +240,7 @@ public class DownloadManager {
 
     private void unzipNatives(Path zipFile, Path targetDir) throws IOException {
         if (mainController != null) {
-            mainController.logUpdate("Extracting natives: " + zipFile + " to " + targetDir);
+            mainController.log("Extracting natives: " + zipFile + " to " + targetDir);
         }
         Files.createDirectories(targetDir);
 
